@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi,width=1360px,user-scalable=yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="renderer" content="webkit" />
+
+    <title>404-该页面不存在-色影无忌-玩摄影的都在这里</title>
+    <meta name="Keywords" content="色影无忌,摄影无忌,摄影,文字论坛,图片,摄影器材,摄影师,器材评测,影像,当代摄影,学摄影,摄影旅游,越野车,摄影作品,女性摄影,女摄影师,影楼,摄影培训,相机,器材论坛,玩主,摄影论坛,人体艺术摄影,模特" />
+    <meta name="Description" content="色影无忌是全球最大的中文摄影交流平台，发布最新的摄影行业动态、专业权威的器材评测、高质量的摄影作品、分享与交流摄影技巧，拥有活跃度极高的无忌摄影论坛和全球最完整的摄影器材库，以及玩主、旅游、美食、试听、天文、她影像等影像生活内容，是摄影爱好者首选交流分享网站。" />
+    
+    <style type="text/css">
+        /*
+         * Author: dengyang
+         * LastTime: 2017-8-16 10:27:01
+         * Description: 
+         * Contact: 
+         */
+        /*统一浏览器默认样式*/
+        html,body{background-color: #fff;color: #000;}
+        body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,p,input,textarea,select,a,
+        pre,code,form,table,caption,tbody,tr,th,td,fieldset,legend,
+        header,section,aside,nav,article,footer,button,
+        blockquote,marquee,figure,figcaption,hgroup{margin: 0;padding: 0;outline: none;}
+        ul,ol,li,a{list-style: none;text-decoration: none;}
+        input,textarea{resize: none;}
+        table{border-collapse: collapse;border-spacing: 0;}
+        em{font-style: normal;}
+        sup{vertical-align:text-top;}
+        sub{vertical-align:text-bottom;}
+        img{border: 0;color: #000;}
+        
+        body{
+            font-family: "Hiragino Sans GB","冬青黑体","Helvetica Neue",Helvetica,Arial,
+                         "STXihei","华文细黑","Microsoft YaHei","微软雅黑",
+                         -apple-system,BlinkMacSystemFont,
+                         "WenQuanYi Micro Hei","文泉驿微米黑","SimHei","黑体",sans-serif;
+        }
+        
+        /*顶部导航条*/
+        .nav_bg{width: 100%;height: 70px;border-bottom: solid 2px #ececec;}
+        .nav{width: 1200px;height: 100%;margin: auto;position: relative;}
+        .nav ul{width: 1000px;text-align: center;}
+        .nav ul li{max-width: 100px;height: 100%;line-height: 70px;padding: 0 40px;display: inline-block;font-size: 18px;color: #000;}
+        .nav ul li:hover{color: #d71345;}
+        .web_logo{width: 86px;height: 43px;position: absolute;left: 0;top: 14px;}
+        .web_logo img{max-height: 100%;display: block;}
+        .nav_logo{width: auto;height: 70px;position: absolute;right: 0;top: 0;}
+        .nav_logo_xr{width: 70px;height: 70px;float: left;cursor: pointer;margin-right: 10px;background: url(http://cms.xitek.com/images/404/xr.png) center center no-repeat;}
+        .nav_logo_wjyz{width: 55px;height: 70px;float: left;cursor: pointer;margin-right: 10px;background: url(http://cms.xitek.com/images/404/wjyz.png) center center no-repeat;}
+        .nav_logo_wjy{width: 90px;height: 70px;float: left;cursor: pointer;margin-right: 10px;background: url(http://cms.xitek.com/images/404/wjy.png) center center no-repeat;}
+        .nav_logo_wjapp{width: 33px;height: 70px;float: left;cursor: pointer;margin-right: 10px;background: url(http://cms.xitek.com/images/404/wjapp.png) center center no-repeat;}
+        .nav_logo_ds{width: 50px;height: 70px;float: left;cursor: pointer;background: url(http://cms.xitek.com/images/404/ds.png) center center no-repeat;}
+        .web_logo img:hover,
+        .nav_logo_xr:hover,
+        .nav_logo_wjyz:hover,
+        .nav_logo_wjy:hover,
+        .nav_logo_wjapp:hover,
+        .nav_logo_ds:hover{opacity: .6;}
+        
+        /*主要内容：名言部分*/
+        .main{width: 1200px;height: auto;margin: auto;margin-top: 20px;}
+        .main_top{text-align: center;}
+        .main_top h1{margin-bottom: 20px;line-height: 70px;font-size: 28px;color: #000;letter-spacing: 2px;font-weight: normal;white-space: nowrap;word-break:keep-all;}
+        .main_top h1 span{color: #d71345;}
+        .main_top ul{min-height: 225px;line-height: 75px;}
+        .main_top ul li{display: none;}
+        .main_top ul li h3{font-size: 18px;color: #000;font-weight: normal;}
+        .main_top ul li h4{font-size: 18px;color: #000;font-weight: normal;}
+        .main_top ul li h5{font-size: 18px;color: #000;font-weight: normal;}
+        
+        /*主要内容：底部区域*/
+        .main_bot{width: 800px;height: 300px;margin: auto;position: relative;margin-top: 80px;}
+        .main_bot .img404{width: 340px;height: 300px;position: absolute;left: 0;top: 0;}
+        .main_bot .goindex{width: 85px;height: 70px;position: absolute;left: 410px;top: 100px;background: url(http://cms.xitek.com/images/404/home.png) top center no-repeat;line-height: 120px;font-size: 18px;color: #000000;text-align: center;}
+        .main_bot .gobbs{width: 85px;height: 70px;position: absolute;left: 560px;top: 100px;background: url(http://cms.xitek.com/images/404/bbs.png) top center no-repeat;line-height: 120px;font-size: 18px;color: #000000;text-align: center;}
+        .main_bot .goindex:hover,
+        .main_bot .gobbs:hover{color: #d71345;}
+        .main_bot .contact{position: absolute;left: 410px;top: 210px;font-size: 13px;color: #000;text-align: center;}
+        .main_bot .contact a{color: #000;text-decoration: underline;}
+        .main_bot .contact a:hover{color: #d71345;}
+        /*适配小屏幕*/
+        @media only screen and (max-width: 1560px){
+            .main{margin-top: 50px;}
+            .main_top h1{margin-bottom: 0px;}
+            .main_top ul{min-height: 135px;}
+            .main_top ul li h3{line-height: 45px;}
+            .main_top ul li h4{line-height: 45px;}
+            .main_top ul li h5{line-height: 45px;}
+            .main_bot{margin-top: 50px;}
+        }
+    </style>
+</head>
+<body>
+    <div class="nav_bg">
+        <div class="nav">
+            <div class="web_logo">
+                <a href="http://www.xitek.com/"><img src="http://cms.xitek.com/images/404/logo.png"/></a>
+            </div>
+            <div class="nav_logo">
+                <a href="http://www.newtalentaward.com/" target="_blank"><div class="nav_logo_xr" title="点击打开：新锐摄影奖官网首页"></div></a>
+                <a href="http://z.xitek.com/2018/" target="_blank"><div class="nav_logo_wjyz" title="点击打开：无忌影展官网首页"></div></a>
+                <a href="http://www.wujiyou.com/" target="_blank"><div class="nav_logo_wjy" title="点击打开：无忌游官网首页"></div></a>
+                <a href="http://www2.xitek.com/topic2016/xitek-app-download/index.html" target="_blank"><div class="nav_logo_wjapp" title="点击打开：色影无忌APP下载页面"></div></a>
+                <a href="http://app.dosnap.com/space/home/index/" target="_blank"><div class="nav_logo_ds" title="点击打开：多色APP网页版首页"></div></a>
+            </div>
+            <ul>
+                <a href="http://info.xitek.com/"><li><span>器材</span></li></a>
+                <a href="http://vision.xitek.com/"><li><span>影像</span></li></a>
+				<a href="http://travel.xitek.com/"><li><span>行色</span></li></a>
+                <!--<a href="http://vision.xitek.com/classroom/"><li><span>学院</span></li></a>-->
+
+				<a href="http://forum.xitek.com/forum.php"><li><span>论坛</span></li></a>
+				<a href="http://she.xitek.com/"><li><span>她影像</span></li></a>
+                <!--<a href="http://auto.xitek.com/"><li><span>汽车</span></li></a>-->
+                
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_top">
+	    <a href="http://zu.xitek.com"><img src="http://www.xitek.com/zu.jpg"></a>
+            <h1><span>404 - </span>该页面不存在</h1>
+            <ul id="mingyan">
+                <li>
+                    <h3>我不记录任何东西，我只是给出一种诠释。</h3>
+                    <h4>I do not document anything, I give an interpretation.</h4>
+                    <h5>——安德烈·柯特兹</h5>
+                </li>
+                <li>
+                    <h3>生命中最有价值的东西是人的记忆，它们是无价的。</h3>
+                    <h4>The most valuable things in a life are a man's memories. And they are priceless.</h4>
+                    <h5>——安德烈·柯特兹</h5>
+                </li>
+                <li>
+                    <h3>观看还不够，你必须感受所拍的东西。</h3>
+                    <h4>Seeing is not enough; you have to feel what you photograph.</h4>
+                    <h5>——安德烈·柯特兹</h5>
+                </li>
+                <li>
+                    <h3>拍摄显而易见的美丽风景是不够的。万全之事会僵化人类的精神。</h3>
+                    <h4>It is not enough to photograph the obviously picturesque. Surefire things are deadening to the human spirit.</h4>
+                    <h5>——多萝西娅·兰格 </h5>
+                </li>
+                <li>
+                    <h3>对我来说，当人感觉深邃的时候， 美感就会出现。</h3>
+                    <h4>To me, beauty appears when one feels deeply. </h4>
+                    <h5>——多萝西娅·兰格</h5>
+                </li>
+                
+                <li>
+                    <h3>对我而言，好照片的准则就是， 它是令人难以忘怀的。</h3>
+                    <h4>For me the criterion of a good photograph is that it is unforgettable.</h4>
+                    <h5>——布拉塞</h5>
+                </li>
+                <li>
+                    <h3>你最初的1万张照片是你最差的照片。</h3>
+                    <h4>Your first 10,000 photographs are your worst.</h4>
+                    <h5>——亨利·卡蒂埃 - 布列松</h5>
+                </li>
+                <li>
+                    <h3>你只须生活下去，生命会给你照片。</h3>
+                    <h4>You just have to live and life will give you pictures.</h4>
+                    <h5>—— 亨利·卡蒂埃 - 布列松</h5>
+                </li>
+                <li>
+                    <h3>在一张肖像中，我正在寻找某人的缄默。</h3>
+                    <h4>In a portrait, I'm looking for the silence in somebody.</h4>
+                    <h5>—— 亨利·卡蒂埃 - 布列松</h5>
+                </li>
+                <li>
+                    <h3>每一个摄影家都有一些去流浪的想法。</h3>
+                    <h4>In every photographer there is something of a stroller.</h4>
+                    <h5>—— 亨利·卡蒂埃 - 布列松 </h5>
+                </li>
+                
+                <li>
+                    <h3>如果你的照片拍得不够好，那是因为你离得不够近。</h3>
+                    <h4>If your pictures aren't good enough, you aren't close enough.</h4>
+                    <h5>——罗伯特·卡帕</h5>
+                </li>
+                <li>
+                    <h3>如果没有合适的情感深度，很大的景深有何用处?</h3>
+                    <h4>What use having a great depth of field,if there is not an adequate depth of feeling?</h4>
+                    <h5>—— 尤金·史密斯</h5>
+                </li>
+                <li>
+                    <h3>我真的相信，有些东西如果我不拍下来，就没人会看见。</h3>
+                    <h4>I really believe there are things nobody would see if I didn't photograph them.</h4>
+                    <h5>——黛安·阿勃丝</h5>
+                </li>
+                <li>
+                    <h3>伟大的摄影总是在失败的边缘。</h3>
+                    <h4>Great photography always on the edge of failure.</h4>
+                    <h5>——加里·维诺格兰德</h5>
+                </li>
+                <li>
+                    <h3>你在谈意义，而我想谈的是照片本身。</h3>
+                    <h4>You're talking about meaning. I want to talk about the picture.</h4>
+                    <h5>——加里·维诺格兰德</h5>
+                </li>
+                
+                 <li>
+                    <h3>一张照片应该被审视，而不是被谈论。</h3>
+                    <h4>A picture should be looked at – not talked about.</h4>
+                    <h5>——艾略特·厄韦特</h5>
+                </li>
+                <li>
+                    <h3>当然，我不会放弃摄影，因为它是我的生命。 </h3>
+                    <h4>Of course, I won't be abandoning photography, because it is my life.</h4>
+                    <h5>——塞巴斯蒂昂·萨尔加多</h5>
+                </li>
+                <li>
+                    <h3>我不相信一个人有一种特定之风格，人们所拥有的，是表现内心的拍照方式。摄影师的内在会表现出来。</h3>
+                    <h4>I don't believe a person has a style. What people have is a way of photographing what is inside them. What is there comes out.</h4>
+                    <h5>——塞巴斯蒂昂·萨尔加多</h5>
+                </li>
+                <li>
+                    <h3>当第一次透过镜头看世界，我的生命就被摄影俘虏了。</h3>
+                    <h4>For the first time, I looked through,a lens – and photography immediately started to invade my life.</h4>
+                    <h5>——塞巴斯蒂昂·萨尔加多</h5>
+                </li>
+                <li>
+                    <h3>我的生活是由极大的流浪与观察的欲望所形塑，相机就是我的护照。</h3>
+                    <h4>My life is shaped by the urgent need to wander and observe, and my camera is my passport.</h4>
+                    <h5>——史蒂夫·麦柯里</h5>
+                </li>
+                
+                <li>
+                    <h3>摄影是世界上最简单的事，但要让它真正地正常运作极其困难。</h3>
+                    <h4>Photography is the simplest thing in the world, but it is incredibly complicated to make it really work.</h4>
+                    <h5>——马丁·帕尔</h5>
+                </li>
+                <li>
+                    <h3>我的黑白摄影作品像是赞美的颂 辞，而彩色摄影作品更像是对社会的 批评。</h3>
+                    <h4>My black-and-white work is more of a celebration, and the color work became more of a critique of society. </h4>
+                    <h5>——马丁·帕尔 </h5>
+                </li>
+                <li>
+                    <h3>危险的是，你有一套拍照的规则，但你只是一再重复地套用规则。</h3>
+                    <h4>The danger is, you have a formula and you just repeat it.</h4>
+                    <h5>——马丁·帕尔 </h5>
+                </li>
+                <li>
+                    <h3>切记：现在每一个人都是摄影师， 对摄影而言，那是很了不起的事。</h3>
+                    <h4>Everyone is a photographer now, remember. That's the great thing about photography. </h4>
+                    <h5>——马丁·帕尔</h5>
+                </li>
+                <li>
+                    <h3>有光的地方，就可以摄影。</h3>
+                    <h4>Wherever thers is light, one can photograph.</h4>
+                    <h5>——阿尔弗雷德·施蒂格里茨</h5>
+                </li>
+                
+                <li>
+                    <h3>艺术的目的是至关重要的自我表达。</h3>
+                    <h4>the goal of art was the vital expression of self.</h4>
+                    <h5>——阿尔弗雷德·施蒂格里茨</h5>
+                </li>
+                <li>
+                    <h3>爱情是否就像艺术?某样东西总在你的前面，却永远也无法完全得到。</h3>
+                    <h4>Is love like art – something always ahead, never quite attained.</h4>
+                    <h5>——爱德华·韦斯顿</h5>
+                </li>
+                <li>
+                    <h3>每年能拍成 12 幅有意义的摄影作品，就算是丰收年了。</h3>
+                    <h4>Twelve significant photographs in any one year is a good crop.</h4>
+                    <h5>——安塞尔·亚当斯 </h5>
+                </li>
+                <li>
+                    <h3>没有比外观锐利但观念模糊的影像更糟的了。</h3>
+                    <h4>There is nothing worse than a sharp image of a fuzzy concept.</h4>
+                    <h5>——安塞尔·亚当斯</h5>
+                </li>
+                <li>
+                    <h3>风景摄影是对摄影师至高的考验，通常也会招致极度的失望。</h3>
+                    <h4>Landscape photography is the supreme test of the photographer – and often the supreme disappointment.</h4>
+                    <h5>——安塞尔·亚当斯</h5>
+                </li>
+            </ul>
+        </div>
+        <div class="main_bot">
+            <div class="img404"><img src="http://cms.xitek.com/images/404/404.png"/></div>
+            <a href="http://www.xitek.com/"><div class="goindex">返回首页</div></a>
+            <a href="http://forum.xitek.com/forum.php"><div class="gobbs">去往论坛</div></a>
+            <div class="contact">问题反馈请联系 <a id="mailto" href="mailto:webmaster@xitek.com?subject=色影无忌网站出现问题，错误为：404-该页面不存在&body=无忌网站管理猿，你好！  我在去往网站页面___________________时出现问题，错误显示为：404-该页面不存在。">webmaster@xitek.com</a></div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /*
+         * Author: dengyang
+         * LastTime: 2017-8-16 10:28:11
+         * Description: 
+         * Contact: 
+         */
+        window.onload = function(){
+            //重设邮件发送内容
+            var oMailto = document.getElementById('mailto'),
+                sHrefPrev = 'mailto:webmaster@xitek.com?subject=色影无忌网站出现问题，错误为：404-该页面不存在&body=无忌网站管理猿，你好！  我在去往网站页面 ';
+                sHrefNext = ' 时出现问题，错误显示为：404-该页面不存在。';
+            
+            var winHref = document.location.href,
+                sHref = sHrefPrev + winHref + sHrefNext;
+            oMailto.href = sHref;
+            
+            //随机显示名言内容
+            var oMingyanBox = document.getElementById('mingyan'),
+                oLi = oMingyanBox.getElementsByTagName('li'),
+                nLen = oLi.length;
+            var index = 0,
+                rdNum = Math.random();
+            
+            index = parseInt(rdNum*nLen);
+            
+            oLi[index].style.display = 'block';
+        }
+    </script>
+   <script type="text/javascript">
+	var _hmt = _hmt || [];
+_hmt.push(['_setAutoPageview', false]);
+_hmt.push(['_trackPageview', '/404.html']);
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?ce70a1f49c2ca89b4b7f15662df921f2";
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-9095154-40"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  
+  gtag('config', 'UA-9095154-40');
+</script>
+<script type="text/javascript">
+        setTimeout("window.location.href='http://ww.xitek.com/'",10000);
+</script>
+</body>
+</html>
